@@ -46,7 +46,55 @@ etc.
 
 //null and undefined
 
-let emptyValue:null=null;
-let notassigned:undefined=undefined;
-console.log(emptyValue);
-console.log(notassigned);
+// let emptyValue:null=null;
+// let notassigned:undefined=undefined;
+// console.log(emptyValue);
+// console.log(notassigned);
+
+
+//5. ANY TYPE
+
+// let value:any="Welcome";
+// console.log(typeof(value))
+// value=100;
+// value=true;
+// console.log(value);
+
+
+
+/*6. UNION TYPE- COMBINE multiple types
+
+let id:number |string |boolean;
+
+id="ABC123";
+console.log(id);
+
+id=12345
+console.log(id);
+
+id=true
+console.log(id);
+*/
+
+
+//7. VOID TYPE
+//udes for functions that dont return anything
+
+
+/*
+
+function show():void
+{
+    console.log("welcome")
+}
+ */
+
+function sum(x:number,y:number):number{
+    return(x+y);
+}
+
+
+let res:number=sum(10,20);
+
+console.log(res);
+
